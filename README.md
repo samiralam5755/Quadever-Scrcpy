@@ -28,17 +28,16 @@ Developed with a focus on fluid user experience, this tool allows you to easily 
 
 ```
 Quadever_Scrcpy/
-├── QuadeverScrcpy.exe        # Main compiled desktop application
+├── QuadeverScrcpy.exe        # Main Application
 ├── adb.exe                   # Android Debug Bridge (ADB) executable
 ├── scrcpy.exe                # Core scrcpy utility engine
-├── icon.ico / icon.png       # Branding asset files
+├── icon.ico / icon.png       # Assest
 ├── lib/
-│   ├── library.zip           # Frozen Python bytecode pack
-│   └── python312.dll         # Bundled Python DLL
-└── scratch/                  # Source files for compilation
-    ├── __main__scrcpygui.py  # Python Tkinter source code
-    ├── build_and_replace.py  # Compiler & Repacker automation script
-    └── change_icon.py        # Windows PE resource icon injection script
+│   ├── library.zip          
+│   └── python312.dll        
+    ├── __main__scrcpygui.py  
+    ├── build_and_replace.py  
+    
 ```
 
 ## Requirements
